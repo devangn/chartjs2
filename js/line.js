@@ -28,6 +28,7 @@ $(document).ready(function() {
 	};
 
 	var options = {
+		responsive: true,
 		title : {
 			display : true,
 			position : "top",
@@ -38,6 +39,10 @@ $(document).ready(function() {
 		legend : {
 			display : true,
 			position : "bottom"
+			labels: {
+            	fontColor: "#333",
+            	fontSize: 16
+        	}
 		}
 	};
 
