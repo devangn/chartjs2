@@ -5,7 +5,7 @@
 </head>
 <body>
     
-    <canvas id="chartcanvas"></canvas>
+    <canvas width="720" height="480" id="chartcanvas"></canvas>
 
     <!-- javascript -->
     <script src="js/jquery.min.js"></script>
@@ -18,7 +18,9 @@
     var chart = new Chart(ctx, {
     	type : "line",
     	data : {},
-    	options: {}
+    	options: {
+            responsive : true
+        }
     });
     
     </script>
